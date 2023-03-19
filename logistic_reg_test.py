@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import datasets
 import matplotlib.pyplot as plt
 
-from logistic_regression import LogisticRegression
+from Regression import LogisticRegression
 
 bc=datasets.load_breast_cancer()
 X,y=bc.data, bc.target
